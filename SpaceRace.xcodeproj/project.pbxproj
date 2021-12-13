@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD260B5275CAC4B0008CA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD260B4275CAC4B0008CA8E /* AppDelegate.swift */; };
+		DAD260B7275CAC4B0008CA8E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAD260B6275CAC4B0008CA8E /* GameScene.sks */; };
+		DAD260BB275CAC4B0008CA8E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD260BA275CAC4B0008CA8E /* GameScene.swift */; };
+		DAD260BD275CAC4C0008CA8E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD260BC275CAC4C0008CA8E /* GameViewController.swift */; };
+		DAD260C0275CAC4C0008CA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD260BE275CAC4C0008CA8E /* Main.storyboard */; };
+		DAD260C2275CAC4D0008CA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD260C1275CAC4D0008CA8E /* Assets.xcassets */; };
+		DAD260C5275CAC4D0008CA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD260C3275CAC4D0008CA8E /* LaunchScreen.storyboard */; };
+		DAD260CF275CAC4D0008CA8E /* SpaceRaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD260CE275CAC4D0008CA8E /* SpaceRaceTests.swift */; };
+		DAD260D9275CAC4E0008CA8E /* SpaceRaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD260D8275CAC4E0008CA8E /* SpaceRaceUITests.swift */; };
+		DAD260DB275CAC4E0008CA8E /* SpaceRaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD260DA275CAC4E0008CA8E /* SpaceRaceUITestsLaunchTests.swift */; };
+		DAD260E9275CAE850008CA8E /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAD260E7275CAE850008CA8E /* explosion.sks */; };
+		DAD260EA275CAE850008CA8E /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAD260E8275CAE850008CA8E /* starfield.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD260CB275CAC4D0008CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD260A9275CAC4B0008CA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD260B0275CAC4B0008CA8E;
+			remoteInfo = SpaceRace;
+		};
+		DAD260D5275CAC4E0008CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD260A9275CAC4B0008CA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD260B0275CAC4B0008CA8E;
+			remoteInfo = SpaceRace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD260B1275CAC4B0008CA8E /* SpaceRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD260B4275CAC4B0008CA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD260B6275CAC4B0008CA8E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DAD260BA275CAC4B0008CA8E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DAD260BC275CAC4C0008CA8E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DAD260BF275CAC4C0008CA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD260C1275CAC4D0008CA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD260C4275CAC4D0008CA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD260CA275CAC4D0008CA8E /* SpaceRaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceRaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD260CE275CAC4D0008CA8E /* SpaceRaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceTests.swift; sourceTree = "<group>"; };
+		DAD260D4275CAC4E0008CA8E /* SpaceRaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceRaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD260D8275CAC4E0008CA8E /* SpaceRaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceUITests.swift; sourceTree = "<group>"; };
+		DAD260DA275CAC4E0008CA8E /* SpaceRaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAD260E7275CAE850008CA8E /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		DAD260E8275CAE850008CA8E /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD260AE275CAC4B0008CA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD260C7275CAC4D0008CA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD260D1275CAC4E0008CA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD260A8275CAC4B0008CA8E = {
+			isa = PBXGroup;
+			children = (
+				DAD260B3275CAC4B0008CA8E /* SpaceRace */,
+				DAD260CD275CAC4D0008CA8E /* SpaceRaceTests */,
+				DAD260D7275CAC4E0008CA8E /* SpaceRaceUITests */,
+				DAD260B2275CAC4B0008CA8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD260B2275CAC4B0008CA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD260B1275CAC4B0008CA8E /* SpaceRace.app */,
+				DAD260CA275CAC4D0008CA8E /* SpaceRaceTests.xctest */,
+				DAD260D4275CAC4E0008CA8E /* SpaceRaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD260B3275CAC4B0008CA8E /* SpaceRace */ = {
+			isa = PBXGroup;
+			children = (
+				DAD260B4275CAC4B0008CA8E /* AppDelegate.swift */,
+				DAD260B6275CAC4B0008CA8E /* GameScene.sks */,
+				DAD260BA275CAC4B0008CA8E /* GameScene.swift */,
+				DAD260BC275CAC4C0008CA8E /* GameViewController.swift */,
+				DAD260BE275CAC4C0008CA8E /* Main.storyboard */,
+				DAD260C1275CAC4D0008CA8E /* Assets.xcassets */,
+				DAD260C3275CAC4D0008CA8E /* LaunchScreen.storyboard */,
+				DAD260E7275CAE850008CA8E /* explosion.sks */,
+				DAD260E8275CAE850008CA8E /* starfield.sks */,
+			);
+			path = SpaceRace;
+			sourceTree = "<group>";
+		};
+		DAD260CD275CAC4D0008CA8E /* SpaceRaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD260CE275CAC4D0008CA8E /* SpaceRaceTests.swift */,
+			);
+			path = SpaceRaceTests;
+			sourceTree = "<group>";
+		};
+		DAD260D7275CAC4E0008CA8E /* SpaceRaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD260D8275CAC4E0008CA8E /* SpaceRaceUITests.swift */,
+				DAD260DA275CAC4E0008CA8E /* SpaceRaceUITestsLaunchTests.swift */,
+			);
+			path = SpaceRaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD260B0275CAC4B0008CA8E /* SpaceRace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD260DE275CAC4E0008CA8E /* Build configuration list for PBXNativeTarget "SpaceRace" */;
+			buildPhases = (
+				DAD260AD275CAC4B0008CA8E /* Sources */,
+				DAD260AE275CAC4B0008CA8E /* Frameworks */,
+				DAD260AF275CAC4B0008CA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceRace;
+			productName = SpaceRace;
+			productReference = DAD260B1275CAC4B0008CA8E /* SpaceRace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD260C9275CAC4D0008CA8E /* SpaceRaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD260E1275CAC4E0008CA8E /* Build configuration list for PBXNativeTarget "SpaceRaceTests" */;
+			buildPhases = (
+				DAD260C6275CAC4D0008CA8E /* Sources */,
+				DAD260C7275CAC4D0008CA8E /* Frameworks */,
+				DAD260C8275CAC4D0008CA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD260CC275CAC4D0008CA8E /* PBXTargetDependency */,
+			);
+			name = SpaceRaceTests;
+			productName = SpaceRaceTests;
+			productReference = DAD260CA275CAC4D0008CA8E /* SpaceRaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD260D3275CAC4E0008CA8E /* SpaceRaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD260E4275CAC4E0008CA8E /* Build configuration list for PBXNativeTarget "SpaceRaceUITests" */;
+			buildPhases = (
+				DAD260D0275CAC4E0008CA8E /* Sources */,
+				DAD260D1275CAC4E0008CA8E /* Frameworks */,
+				DAD260D2275CAC4E0008CA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD260D6275CAC4E0008CA8E /* PBXTargetDependency */,
+			);
+			name = SpaceRaceUITests;
+			productName = SpaceRaceUITests;
+			productReference = DAD260D4275CAC4E0008CA8E /* SpaceRaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD260A9275CAC4B0008CA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DAD260B0275CAC4B0008CA8E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DAD260C9275CAC4D0008CA8E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DAD260B0275CAC4B0008CA8E;
+					};
+					DAD260D3275CAC4E0008CA8E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DAD260B0275CAC4B0008CA8E;
+					};
+				};
+			};
+			buildConfigurationList = DAD260AC275CAC4B0008CA8E /* Build configuration list for PBXProject "SpaceRace" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD260A8275CAC4B0008CA8E;
+			productRefGroup = DAD260B2275CAC4B0008CA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD260B0275CAC4B0008CA8E /* SpaceRace */,
+				DAD260C9275CAC4D0008CA8E /* SpaceRaceTests */,
+				DAD260D3275CAC4E0008CA8E /* SpaceRaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD260AF275CAC4B0008CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD260C0275CAC4C0008CA8E /* Main.storyboard in Resources */,
+				DAD260B7275CAC4B0008CA8E /* GameScene.sks in Resources */,
+				DAD260C2275CAC4D0008CA8E /* Assets.xcassets in Resources */,
+				DAD260E9275CAE850008CA8E /* explosion.sks in Resources */,
+				DAD260EA275CAE850008CA8E /* starfield.sks in Resources */,
+				DAD260C5275CAC4D0008CA8E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD260C8275CAC4D0008CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD260D2275CAC4E0008CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD260AD275CAC4B0008CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD260BB275CAC4B0008CA8E /* GameScene.swift in Sources */,
+				DAD260BD275CAC4C0008CA8E /* GameViewController.swift in Sources */,
+				DAD260B5275CAC4B0008CA8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD260C6275CAC4D0008CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD260CF275CAC4D0008CA8E /* SpaceRaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD260D0275CAC4E0008CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD260DB275CAC4E0008CA8E /* SpaceRaceUITestsLaunchTests.swift in Sources */,
+				DAD260D9275CAC4E0008CA8E /* SpaceRaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD260CC275CAC4D0008CA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD260B0275CAC4B0008CA8E /* SpaceRace */;
+			targetProxy = DAD260CB275CAC4D0008CA8E /* PBXContainerItemProxy */;
+		};
+		DAD260D6275CAC4E0008CA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD260B0275CAC4B0008CA8E /* SpaceRace */;
+			targetProxy = DAD260D5275CAC4E0008CA8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD260BE275CAC4C0008CA8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD260BF275CAC4C0008CA8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD260C3275CAC4D0008CA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD260C4275CAC4D0008CA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD260DC275CAC4E0008CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD260DD275CAC4E0008CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD260DF275CAC4E0008CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Phat-Nguyen.SpaceRace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DAD260E0275CAC4E0008CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Phat-Nguyen.SpaceRace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		DAD260E2275CAC4E0008CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Phat-Nguyen.SpaceRaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceRace.app/SpaceRace";
+			};
+			name = Debug;
+		};
+		DAD260E3275CAC4E0008CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Phat-Nguyen.SpaceRaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceRace.app/SpaceRace";
+			};
+			name = Release;
+		};
+		DAD260E5275CAC4E0008CA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Phat-Nguyen.SpaceRaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceRace;
+			};
+			name = Debug;
+		};
+		DAD260E6275CAC4E0008CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Phat-Nguyen.SpaceRaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceRace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD260AC275CAC4B0008CA8E /* Build configuration list for PBXProject "SpaceRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD260DC275CAC4E0008CA8E /* Debug */,
+				DAD260DD275CAC4E0008CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD260DE275CAC4E0008CA8E /* Build configuration list for PBXNativeTarget "SpaceRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD260DF275CAC4E0008CA8E /* Debug */,
+				DAD260E0275CAC4E0008CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD260E1275CAC4E0008CA8E /* Build configuration list for PBXNativeTarget "SpaceRaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD260E2275CAC4E0008CA8E /* Debug */,
+				DAD260E3275CAC4E0008CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD260E4275CAC4E0008CA8E /* Build configuration list for PBXNativeTarget "SpaceRaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD260E5275CAC4E0008CA8E /* Debug */,
+				DAD260E6275CAC4E0008CA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD260A9275CAC4B0008CA8E /* Project object */;
+}
